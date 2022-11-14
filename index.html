@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <p class="font1"> 1. Add two numbers; You are provided with two numbers A and B. Your task is  to add these two numbers </p>
+
+<pre class="code">
+const AddTwo Numbers = (a,b) => {
+    return a+b;
+};
+</pre>
+
+<p class="font1"> 2.Find if the conditions are obeyed or not ?</p>
+
+<p class="font1"> You are given two numbers first as A and second as B and check if both conditions (A<10 and A>B) are 
+satisfied or not with the help of operators.</p>
+
+<pre class="code">
+const Is_valid = (a,b) => {
+    return a<10 && a>b;
+};
+</pre>
+
+<p class="font1"> 3.Check the conditions: You are given two numbers A and B. You need to do the following checks: </p>
+
+ 1) if both are divisible by 10 consol true.
+ 2) if both are not divisible by 10 consol false.
+ 3) if one of them only is divisible by10 consol true.
+
+ <pre class="code">
+ Const Check = (A,B) =>
+ {
+    if (A%10===0 && B%10===0){
+        return "true";
+    }
+    else if (A%10===0 || B%10===0){
+        return "true";
+    }
+    else{
+        return "false";
+    }
+ };
+</pre>
+
+<p class="font1"> 4. Find the first digit of a 4 digiit number :You are provided a four digit number N only. Your task is 
+to print out the first digit of that number.</p>
+
+<pre class="code">
+const First_Digit = (n) => {
+    var a=n/1000;
+    var b=parseInt(a);
+    return b;
+};
+</pre>
+
+<p class="font1"> 5.Find the last digit of a 4 digit number: You are provided a four digit number N only. Your task is 
+to print out the last digit of that number.</p>
+
+<pre class="code">
+Const Last_Digit = (n) => {
+var a=n%10;
+var b=parseInt(a);
+return b;
+};
+</pre>
+
+<p class="font1">6. Multiply two Numbers: You are provided with two numbers A and B as where A as divisor and B as dividend.</p> 
+
+<pre class="code">
+Const Find_the_remainder = (a,b) =>{
+    var rem=b%a;
+    return rem;
+};
+</pre>
+
+<p class="font1"> 7. Multiply two Numbers: You are provided with two numbers A and B. Your task is to multiply these
+two numbers.</p>
+
+<pre class="code">
+Const Multiply_two_numbers = (a,b) =>{
+    var product=a*b;
+    return product;
+};
+</pre>
+
+<p class="font1"> 8. Marks Calculator: Shyam has got his marks in three subjects as A,B and C (out of 100). 
+Write a program to calculate his total marks and his average.</p>
+
+<pre class="code">
+ Const Sum = (A,B,C) =>
+{
+    var total = A+B+C;
+    return total;
+};
+Const Average = (A,B,C) =>
+{
+    var parcent = (A+B+C)/3;
+    return parcent;
+};
+</pre>
+</body>
+</html>
